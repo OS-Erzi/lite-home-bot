@@ -1,0 +1,1 @@
+from logger.loguru_cfg import loguru_log
