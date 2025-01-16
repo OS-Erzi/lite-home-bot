@@ -17,8 +17,6 @@ class EmojiEnum(str, Enum):
 
 class BotSettings(EnvBaseSettings):
     TOKEN: str
-    OWNER_ID: int
-    CLIENT_ID: int
 
     PREFIX: str 
     FOLDER_PATH: str = Field(default="cogs", alias="CUSTOM_COGS_FOLDER")
